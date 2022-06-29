@@ -3,6 +3,7 @@ import EnumLecture.LetsEnum;
 import Looping.DoWhileLoop;
 import Looping.Forloop;
 import Looping.WhileLoop;
+import Methods.*;
 import Numbers.BoxingAndUnboxing;
 import Numbers.NumberValue;
 import Operator.ArithmeticOperator;
@@ -35,5 +36,10 @@ public class Main {
         ConditionalOperator.kentang();
         NumberValue.kentang();
         BoxingAndUnboxing.kentang();
+        CompareMethod.kentang();
+        EqualsToMethod.kentang();
+        StringMethod.kentang();
+        ValueOfMethod.kentang();
+        RoundMethod.kentang();
     }
 }
