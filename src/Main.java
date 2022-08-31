@@ -1,59 +1,15 @@
-import ArrayLecture.Arrays;
-import EnumLecture.LetsEnum;
-import Looping.DoWhileLoop;
-import Looping.Forloop;
-import Looping.WhileLoop;
-import Methods.*;
-import Numbers.BoxingAndUnboxing;
-import Numbers.NumberValue;
-import Operator.ArithmeticOperator;
-import Operator.BitwiseOperator;
-import Operator.ConditionalOperator;
-import Operator.LogicalOperator;
+
 import SimpleProjects.*;
-import Statement.IfStatement;
-import Statement.NestedIf;
-import Statement.SwitchState;
-import concatenation.Concatenate;
-import javaDateTime.DateTime;
-import types.Datas;
+//import design_patterns.builder_class.App;
+import design_patterns.ObjectPool.App_ObjectPool;
+import design_patterns.abstract_factory.App_Factory;
+import design_patterns.factory.App;
+import design_patterns.prototype.App_Prototype;
 
 public class Main {
     public static void main(String []args){
-//        Datas.Kentang();
-//        Concatenate.kentang();
-//        Arrays.kentang();
-//        LetsEnum.kentang();
-//        DateTime.kentang();
-//        IfStatement.kentang();
-//        SwitchState.kentang();
-//        NestedIf.kentang();
-//        WhileLoop.kentang();
-//        Forloop.kentang();
-//        DoWhileLoop.kentang();
-//        ArithmeticOperator.kentang();
-//        BitwiseOperator.kentang();
-//        LogicalOperator.kentang();
-//        ConditionalOperator.kentang();
-//        NumberValue.kentang();
-//        BoxingAndUnboxing.kentang();
-//        CompareMethod.kentang();
-//        EqualsToMethod.kentang();
-//        StringMethod.kentang();
-//        ValueOfMethod.kentang();
-//        RoundMethod.kentang();
-//        FinalFunction.kentang();
-//        ProgramInterface coba = new ProgramInterface();
-//        ProgramInterface.Company kentang = coba.new Company();
-//        try {
-//            kentang.kentang();
-//        } catch (Exception e) {
-//            throw new RuntimeException(e);
-//        }
-
-        Pattern1.kentang();
-        SecondPatterns.kentang();
-        ThirdPatterns.kentang();
-        ForthPattern.kentang();
+//        App.dota();
+//        App_Factory.kentang();
+        App_ObjectPool.kentang();
     }
 }
