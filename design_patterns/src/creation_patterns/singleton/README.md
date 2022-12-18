@@ -1,2 +1,3 @@
-### Singleton
-creational design pattern, which ensures that only one object of its kind exists and provides a single point of access to it for any other code.
+# Singleton-pattern
+
+Singleton pattern: memastikan bahwa sebuah kelas hanya memiliki satu instance, dan memberikan akses global ke instance tersebut.
