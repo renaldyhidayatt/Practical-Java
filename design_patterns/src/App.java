@@ -1,3 +1,4 @@
+import behavior_patterns.chainofresponsibility.App_Chain;
 import structural_patterns.adapter_patterns.App_adapter;
 import structural_patterns.bridge_patterns.App_bridge;
 import structural_patterns.composite_patterns.App_composite;
@@ -17,5 +18,8 @@ public class App {
         Client.kentang();
         System.out.println("------");
         ProxyPatterns.kentang();
+        System.out.println("------");
+
+        App_Chain.kentang();
     }
 }
