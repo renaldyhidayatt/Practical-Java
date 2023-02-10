@@ -16,6 +16,8 @@ public class arit1 {
         int multiplication = numA * numB;
 
         System.out.println("numA * numB = " + multiplication);
+        
+
 
         int division = numB / numA;
         System.out.println("numB / numA = " + division);// prints out 15

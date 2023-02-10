@@ -6,5 +6,7 @@ public class Main {
         arit2.kentang();
         arit3.kentang();
         arit4.kentang();
+
+        arit4.kentang();
     }
 }
